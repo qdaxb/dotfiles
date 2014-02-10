@@ -4,6 +4,7 @@ set nu
 set sw=4
 set smarttab
 set smartindent
+set ignorecase
 set selection=inclusive
 set wildmenu
 set mousemodel=popup
@@ -17,7 +18,6 @@ nmap uml :make <CR> <CR>
 nmap nt :NERDTreeToggle<CR>
 set tags=~/.tags
 nmap tag :TagbarToggle<CR>
-"let mapleader='\<tab>'
 set shellslash
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='xelatex'
@@ -41,3 +41,4 @@ syntax enable
 set background=dark
 colorscheme solarized
 let mapleader=","
+set hlsearch
